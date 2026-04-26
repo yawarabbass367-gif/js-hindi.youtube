@@ -1,0 +1,13 @@
+const accountId =14456
+let accountemail = "yawarabbass367@gmail.com"
+var accountpassword ="12378"
+let accountcity = "karachi"
+
+// accountId =2 // notallowed
+accountemail = "yawar@gmail.com"
+accountpassword = "972972"
+accountcity = "haiderabad"
+
+console.log(accountId);
+
+console.table([accountemail,accountpassword,accountcity])
