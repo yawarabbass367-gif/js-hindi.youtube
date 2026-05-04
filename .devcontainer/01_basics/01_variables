@@ -1,6 +1,6 @@
-const accountId =14456
+const accountId = 14456
 let accountemail = "yawarabbass367@gmail.com"
-var accountpassword ="12378"
+var accountpassword = "12378"
 let accountcity = "karachi"
 
 // accountId =2 // notallowed
@@ -10,4 +10,9 @@ accountcity = "haiderabad"
 
 console.log(accountId);
 
-console.table([accountemail,accountpassword,accountcity])
+console.table([accountemail, accountpassword, accountcity]);
+console.table({
+  email: accountemail,
+  password: accountpassword,
+  city: accountcity
+});
